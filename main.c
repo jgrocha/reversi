@@ -64,7 +64,7 @@ int mostra_menu() {
 int main() {
     char linha[64];
     do {
-        // mostra_menu();
+        mostra_menu();
         fgets(linha, 64, stdin);
         executa_opcao(linha);
     } while (toupper(linha[0]) != 'Q');
