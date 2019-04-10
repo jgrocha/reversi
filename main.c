@@ -30,6 +30,8 @@ int executa_opcao(char comando[]) {
                 printf("Posição inválida\n");
             break;
         case 'S':
+            printf("Opção por implementarq\n");
+            break;
         case 'H':
         case 'U':
         case 'A':
